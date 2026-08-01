@@ -14,11 +14,11 @@ Cash flow trajectory chart — a 12-month cumulative cash balance line with a �
 4 dynamic KPI cards — Ending Cash Balance, Total Net Cash Flow, Months to Cash-Out, and Breakeven Revenue, all formula-linked and updating live
 Screenshots
 
-Best Case Show Image
+![Best Case](best-case.png)
 
-Base Case Show Image
+![Base Case](base-case.png)
 
-Worst Case Show Image
+![Worst Case](worst-case.png)
 
 Technical Approach
 Scenario engine: INDEX(Scenarios!range, MATCH(Dashboard!D7, Scenarios!A4:A6, 0)) pulls active Growth Rate, COGS%, and Marketing% based on the Dashboard dropdown selection
